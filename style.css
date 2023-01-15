@@ -1,0 +1,115 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.header{
+    height: 14%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: orange;
+
+}
+.lowerdiv{
+    flex-direction: column;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    border-bottom: .1px solid rgb(228, 224, 224);
+}
+button{
+    color: rgb(22, 21, 21);
+    background-color: rgb(247, 179, 53);
+    height: 40px;
+    width: 90px;
+    margin: 2%;
+    padding: 0.5%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 5px 1px rgb(251, 251, 251);
+}
+button:hover{
+    color: rgb(22, 21, 21);
+    background-color: rgb(255, 164, 6);
+    height: 40px;
+    width: 90px;
+    margin: 2%;
+    padding: 0.5%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 5px 1px rgb(251, 251, 251);
+}
+#lowerDiv {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 65%;
+    justify-self: center;
+    align-self: center;
+    justify-content: space-between;
+
+}
+.info{
+    width: 80%;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    font-weight: bolder;
+
+}
+.div3{
+    text-align: end;
+    width: 35%;
+}
+
+.graph {
+    display: flex;  
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(215, 210, 210);
+    height: 10%;
+    align-items: center;
+}
+@media screen and (max-width:426px) {
+    .graph {
+        display: flex;  
+        justify-content: space-around;
+        border-bottom: 1px solid rgb(215, 210, 210);
+        height: 15%;
+        align-items: center;
+    }
+}
+
+.bar {
+    background-color: rgb(255, 202, 68);
+    
+ 
+}
+.outerBar {
+    width: 35%;
+    height: 10%;
+}
+
+.name {
+    width: 25%;
+}
+.population{
+    width: 35%;
+    text-align: end;
+
+}
