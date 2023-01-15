@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <h2>World country data</h2>
+      <p id="subHeading"></p>
+    </div>
+    <div class="lowerdiv">
+      <div style="display: flex">
+        <button onclick="funcOne()">Population</button>
+        <button onclick="funcTwo()">Language</button>
+      </div>
+      <p id="graphTitle"></p>
+    </div>
+    <div class="info">
+        <div class="div1">Name</div>
+        <div class="div2">Percentage %</div>
+        <div class="div3">Total</div>
+    </div>
+    <div id="lowerDiv">
+      <div class="graph">
+        <div class="name"><div></div></div>
+        <div class="outerBar">
+          <div class="bar"></div>
+          
+        </div>
+        <div class="population"></div>
+      </div>
+    </div>
+    <script src="datafile.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
